@@ -1,0 +1,18 @@
+{
+  "type": "module",
+  "scripts": {
+    "client": "bun --watch client.ts",
+    "server": "bun --watch index.ts",
+    "start": "cd dist && node index.js",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@socket.io/admin-ui": "^0.5.1",
+    "socket.io": "^4.7.5",
+    "socket.io-client": "^4.7.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4",
+    "typescript": "^5.5.4"
+  }
+}

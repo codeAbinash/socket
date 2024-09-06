@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "module": "NodeNext",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "ESNext",
+    "noImplicitAny": true,
+    "moduleResolution": "NodeNext",
+    "sourceMap": true,
+    "outDir": "dist",
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "strict": true
+  },
+  "include": ["src/**/*", "./index.ts", "./client.ts"]
+}
